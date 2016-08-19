@@ -18,8 +18,15 @@ formatting.
 _
 
     participants => [
-        {name=>'log_trace', code_template=>'state $log = do { require Log::Any; Log::Any->get_logger }; $log->trace("")'},
-        {name=>'if_trace' , code_template=>'state $log = do { require Log::Any; Log::Any->get_logger }; if ($log->is_trace) {}'},
+        {
+            name => 'log_trace',
+            module => 'Log::Any',
+            code_template => 'state $log = do { require Log::Any; require Log::Any::Adapter; Log::Any::Adapter->set("Null"); Log::Any->get_logger }; $log->trace("")',
+        },
+        {
+            name => 'if_trace' ,
+            module => 'Log::Any',
+            code_template => 'state $log = do { require Log::Any; require Log::Any::Adapter; Log::Any::Adapter->set("Null"); Log::Any->get_logger }; if ($log->is_trace) {}'},
     ],
 };
 
