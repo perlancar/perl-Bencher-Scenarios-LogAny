@@ -1,5 +1,10 @@
 Revision history for Bencher-Scenario-LogAny
 
+0.04    2016-08-19 (PERLANCAR)
+
+	- In sample benchmark, include Log::Any versions 1.040 & 1.041.
+
+
 0.03    2016-06-26 (PERLANCAR)
 
         - No functional changes.
