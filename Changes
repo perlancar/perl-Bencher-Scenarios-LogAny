@@ -1,5 +1,11 @@
 Revision history for Bencher-Scenarios-LogAny
 
+0.06    2016-08-20 (PERLANCAR)
+
+	- Rename dist Bencher-Scenario{,s}-LogAny, add scenarios
+	  LogAny::NullLogging & LogAny::NoAdapterLogging.
+
+
 0.05    2016-08-20 (PERLANCAR) (unreleased)
 
 	- Rename dist Bencher-Scenario{,}-LogAny.
