@@ -1,9 +1,9 @@
-0.09    2017-07-10 (PERLANCAR)
+0.09    2017-07-10  Released-By: PERLANCAR
 
 	- Remove Log::Any::IfLOG from list of participants.
 
 
-0.08    2017-01-25 (PERLANCAR)
+0.08    2017-01-25  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -12,39 +12,39 @@
           type=x_benchmarks.
 
 
-0.07    2016-11-23 (PERLANCAR)
+0.07    2016-11-23  Released-By: PERLANCAR
 
         - No functional changes.
 
         - Add Log-Any-{0.15,1.032,1.038} to archive/.
 
 
-0.06    2016-08-20 (PERLANCAR)
+0.06    2016-08-20  Released-By: PERLANCAR
 
 	- Rename dist Bencher-Scenario{,s}-LogAny, add scenarios
 	  LogAny::NullLogging & LogAny::NoAdapterLogging.
 
 
-0.05    2016-08-20 (PERLANCAR) (unreleased)
+0.05    2016-08-20 (PERLANCAR)  Released-By: unreleased
 
 	- Rename dist Bencher-Scenario{,}-LogAny.
 
         - Add scenario: LogAny/NullLogging, LogAny/NoAdapterLogging.
 
 
-0.04    2016-08-19 (PERLANCAR)
+0.04    2016-08-19  Released-By: PERLANCAR
 
 	- In sample benchmark, include Log::Any versions 1.040 & 1.041.
 
 
-0.03    2016-06-26 (PERLANCAR)
+0.03    2016-06-26  Released-By: PERLANCAR
 
         - No functional changes.
 
         - [build] Rebuild to show abstract.
 
 
-0.02    2016-01-05 (PERLANCAR)
+0.02    2016-01-05  Released-By: PERLANCAR
 
         - No functional changes.
 
@@ -52,6 +52,6 @@
           (0.02) which shows sample benchmark results in POD.
 
 
-0.01    2016-01-02 (PERLANCAR)
+0.01    2016-01-02  Released-By: PERLANCAR
 
         - First release.
