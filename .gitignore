@@ -2,3 +2,4 @@ Bencher-Scenarios-LogAny-*
 .build
 *~
 nytprof*
+.DS_Store
